@@ -1,5 +1,12 @@
 import { Stack } from "expo-router";
-import './globals.css'
+import "./globals.css";
+
 export default function RootLayout() {
-  return <Stack />;
+  return (
+    <Stack screenOptions={{ headerShown: false }}>
+      {/* <Stack.Screen name="test" /> */}
+      <Stack.Screen name="landingPage" />
+      <Stack.Screen name="WelcomePage" />
+    </Stack>
+  );
 }

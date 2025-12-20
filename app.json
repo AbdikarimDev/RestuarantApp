@@ -4,7 +4,7 @@
     "slug": "RestuarantApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/taran.png",
+    "icon": "./assets/fruit.png",
     "scheme": "restuarantapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,23 +14,23 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/taran.png",
-        "backgroundImage": "./assets/taran.png",
-        "monochromeImage": "./assets/taran.png"
+        "foregroundImage": "./assets/fruit.png",
+        "backgroundImage": "./assets/fruit.png",
+        "monochromeImage": "./assets/fruit.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/taran.png"
+      "favicon": "./assets/fruit.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/taran.png",
+          "image": "./assets/fruit.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
