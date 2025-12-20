@@ -8,7 +8,10 @@ import filter from './filter.png'
 import HoneyLimeCombo from './HoneyLimeCombo.png'
 import BerryMangoCombo from './BerryMangoCombo.png'
 import love from './love.png'
-
+import naira from './naira.png'
+import add from './add.png'
+import Quino from './Quino.png'
+import Tropical from './Tropical.png'
 export default {
   Logo,
   basket,
@@ -20,4 +23,8 @@ export default {
   HoneyLimeCombo,
   BerryMangoCombo,
   love,
+  naira,
+  add,
+  Quino,
+  Tropical
 }
