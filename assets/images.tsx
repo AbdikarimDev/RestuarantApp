@@ -12,6 +12,9 @@ import naira from './naira.png'
 import add from './add.png'
 import Quino from './Quino.png'
 import Tropical from './Tropical.png'
+import back from './back.png'
+import minus from './minus.png'
+import love2 from './love2.png'
 export default {
   Logo,
   basket,
@@ -26,5 +29,8 @@ export default {
   naira,
   add,
   Quino,
-  Tropical
+  Tropical,
+  back,
+  minus,
+  love2
 }

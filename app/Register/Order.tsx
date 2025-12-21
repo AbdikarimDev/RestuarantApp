@@ -1,7 +1,8 @@
 import React from "react";
-import { Image, ScrollView, Text, TextInput, View } from "react-native";
+import { Image, Pressable, ScrollView, Text, TextInput, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Images from "../../assets/images";
+import { router } from 'expo-router';
 
 const Order = () => {
   const cards = [
@@ -155,7 +156,8 @@ const Order = () => {
           contentContainerStyle={{ paddingHorizontal: 1 }}
         >
           {populars.map((popular) => (
-            <View
+            <Pressable
+            onPress={() => router.push('/Register/details')}
               key={popular.id}
               style={{ backgroundColor: popular.bgColor }}
               className="w-[172px] h-[183px] mt-8 mr-4   rounded-2xl"
@@ -184,7 +186,7 @@ const Order = () => {
                   <Image source={Images.add} className="w-[24px] h-[24px] mt-2" />
                 </View>
               </View>
-            </View>
+            </Pressable>
           ))}
         </ScrollView>
       </View>
