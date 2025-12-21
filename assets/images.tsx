@@ -15,6 +15,7 @@ import Tropical from './Tropical.png'
 import back from './back.png'
 import minus from './minus.png'
 import love2 from './love2.png'
+import melon from './melon.png'
 export default {
   Logo,
   basket,
@@ -32,5 +33,6 @@ export default {
   Tropical,
   back,
   minus,
-  love2
+  love2,
+  melon
 }

@@ -64,7 +64,7 @@ const details = () => {
             <Text className="  font-[400] text-[14px] w-[284px] my-8">If you are looking for a new fruit salad to eat today, quinoa is the perfect brunch for you. make</Text>
             <View className="flex flex-row justify-center items-center gap-14">
               <Image source={images.love2} className="w-[48px] h-[48px]"/>
-              <Pressable className="flex justify-center items-center w-[259px] h-[56px] bg-[#FFA451] rounded-[12px]">
+              <Pressable onPress={()=>router.push('/Register/myBasket')} className="flex justify-center items-center w-[259px] h-[56px] bg-[#FFA451] rounded-[12px]">
                 <Text className="font-[500] text-[16px] text-white  ">Add To basket</Text>
               </Pressable>
 
