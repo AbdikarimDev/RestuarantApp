@@ -16,6 +16,14 @@ import back from './back.png'
 import minus from './minus.png'
 import love2 from './love2.png'
 import melon from './melon.png'
+import succsess from './succsess.png'
+import order from './order.png'
+import preparing from './preparing.png'
+import delivery from './delivery.png'
+import tick from './tick.png'
+import call from './call.png'
+import map from './map.png'
+import dot from './dot.png'
 export default {
   Logo,
   basket,
@@ -34,5 +42,13 @@ export default {
   back,
   minus,
   love2,
-  melon
+  melon,
+  succsess,
+  order,
+  preparing,
+  delivery,
+  tick,
+  call,
+  map,
+  dot,
 }
