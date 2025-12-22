@@ -7,6 +7,7 @@ export default function RootLayout() {
       {/* <Stack.Screen name="test" /> */}
       <Stack.Screen name="landingPage" />
       <Stack.Screen name="WelcomePage" />
+      <Stack.Screen name="loging" />
       <Stack.Screen name="Register" />
     </Stack>
   );
