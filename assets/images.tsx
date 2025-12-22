@@ -25,6 +25,12 @@ import call from './call.png'
 import map from './map.png'
 import dot from './dot.png'
 import Cancel from './Cancel.png'
+import stylish from './stylish.png'
+import user from './user.png'
+import eye from './eye.png'
+import Buttons from './Buttons.png'
+import background from './background.png'
+import alignleft from './align-left.png'
 export default {
   Logo,
   basket,
@@ -53,4 +59,10 @@ export default {
   map,
   dot,
   Cancel,
+  stylish,
+  user,
+  eye,
+  Buttons,
+  background,
+  alignleft,
 }
