@@ -68,7 +68,7 @@ const myBasket = () => {
           <View className="inset-0 shadow absolute top-0 bottom-0 left-0 right-0 bg-[#00000056]"></View>
           
           <View className="bg-white absolute bottom-0 h-[406px] left-0 right-0 rounded-t-3xl p-6">
-            <Pressable onPress={() => setIsvisible(false)} className="bg-[#FFFFFF] rounded-full flex justify-center items-center  w-[48px] h-[48px] top-[-100px] left-[150px] ">
+            <Pressable onPress={() => setIsvisible(false)} className="bg-[#FFFFFF] rounded-full flex justify-center items-center  w-[48px] h-[48px] top-[-100px] left-[160px] ">
             <Image source={images.Cancel} className="w-[28px] h-[28px]" />
           </Pressable>
             <Text className="font-[500] text-[20px] text-[#27214D] my-5">
