@@ -114,14 +114,15 @@ const Order = () => {
           contentContainerStyle={{ paddingHorizontal: 1,  }}
         >
           {cards.map((card) => (
-            <View
+            <Pressable
+            onPress={() => router.push('/Register/details')}
               key={card.id}
               className="w-[172px] h-[183px] mt-8 mr-4 bg-white rounded-2xl "
             >
               <Image
                 source={Images.love}
                 className="h-[14px] m-3 w-[16px]"
-                resizeMode="cover"
+                resizeMode="cover" 
               />
               <Image
                 source={card.image}
@@ -142,7 +143,7 @@ const Order = () => {
                   <Image source={Images.add} className="w-[24px] h-[24px] mt-2" />
                 </View>
               </View>
-            </View>
+            </Pressable>
           ))}
         </ScrollView>
         

@@ -24,6 +24,7 @@ import tick from './tick.png'
 import call from './call.png'
 import map from './map.png'
 import dot from './dot.png'
+import Cancel from './Cancel.png'
 export default {
   Logo,
   basket,
@@ -51,4 +52,5 @@ export default {
   call,
   map,
   dot,
+  Cancel,
 }

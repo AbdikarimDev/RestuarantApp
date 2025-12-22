@@ -59,15 +59,18 @@ const myBasket = () => {
         {/* modal */}
         <Modal
           visible={isVisible}
+          onRequestClose={() => setIsvisible(false)}
           animationType="slide"
           presentationStyle="pageSheet"
           transparent
           statusBarTranslucent
         >
-          <View className="inset-0 shadow absolute top-0 bottom-0 left-0 right-0 bg-[#00000056]">
-
-          </View>
+          <View className="inset-0 shadow absolute top-0 bottom-0 left-0 right-0 bg-[#00000056]"></View>
+          
           <View className="bg-white absolute bottom-0 h-[406px] left-0 right-0 rounded-t-3xl p-6">
+            <Pressable onPress={() => setIsvisible(false)} className="bg-[#FFFFFF] rounded-full flex justify-center items-center  w-[48px] h-[48px] top-[-100px] left-[150px] ">
+            <Image source={images.Cancel} className="w-[28px] h-[28px]" />
+          </Pressable>
             <Text className="font-[500] text-[20px] text-[#27214D] my-5">
               Delivery address
             </Text>
@@ -76,7 +79,6 @@ const myBasket = () => {
               className="bg-[#F3F1F1] w-[376px] h-[56px] rounded-[10px] "
             />
             <Text className="font-[500] text-[20px] my-8 text-[#27214D] ">
-              
               Number we can call
             </Text>
             <TextInput
@@ -86,7 +88,7 @@ const myBasket = () => {
 
             <View className="flex flex-row justify-between items-center ">
               <Pressable
-                onPress={() => router.push('/Register/succsess')}
+                onPress={() => router.push("/Register/succsess")}
                 className="border border-[#FFA451] w-[165px] h-[56px] rounded-[10px] flex justify-center items-center"
               >
                 <Text className="font-[500] text-[16px] text-[#FFA451]">
@@ -94,7 +96,7 @@ const myBasket = () => {
                 </Text>
               </Pressable>
               <Pressable
-                onPress={() => router.push('/Register/succsess')}
+                onPress={() => router.push("/Register/succsess")}
                 className="border border-[#FFA451] w-[165px] h-[56px] rounded-[10px] flex justify-center items-center"
               >
                 <Text className="font-[500] text-[16px] text-[#FFA451]">
