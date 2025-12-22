@@ -9,9 +9,9 @@ const Index = () => {
 
   return (
     <View className="flex-1 items-center justify-center">
-      <Pressable onPress={() => router.push("/WelcomePage")}>
+      {/* <Pressable onPress={() => router.push("/WelcomePage")}>
         <Image style={{ width: 230, height: 230 }} source={images.Logo} />
-      </Pressable>
+      </Pressable> */}
 
       
           <Pressable onPress={() => router.push("/stylish/Welcom")}>
