@@ -13,16 +13,16 @@ const GetStarted = () => {
           className="w-full h-[844px]"
           style={{ height: 885 }}
         > 
-          <View className="flex justify-end pb-20 items-center h-full ">
+          <View className="flex justify-center pb-20 items-center h-full ">
             <Text className="text-white font-bold text-[34px] leding-[100px] w-[215px]  text-center   ">
               You want Authentic, here you go!
             </Text>
-            <Text className="text-[#F2F2F2] font-[400] text-[14px]   text-center   ">
+            <Text className="text-[#F2F2F2] font-[700] text-[14px]   text-center   ">
               Find it here, buy it now!
             </Text>
             <Pressable
               onPress={() => router.push("/stylish/content")}
-              className="w-[279px] h-[55px] mx-auto rounded-[4px] bg-[#F83758] flex justify-center items-center mt-10"
+              className="w-[279px] h-[55px] mx-auto rounded-[4px] bg-[#F83758] flex justify-center items-center mt-32"
             >
               <Text className="text-[#FFFFFF] font-bold text-[20px]">
                 Get Started
