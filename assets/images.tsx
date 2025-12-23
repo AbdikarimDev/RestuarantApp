@@ -1,10 +1,12 @@
 import BerryMangoCombo from "./BerryMangoCombo.png";
 import Buttons from "./Buttons.png";
 import Cancel from "./Cancel.png";
+import Food from "./Food.png";
 import HoneyLimeCombo from "./HoneyLimeCombo.png";
 import Logo from "./Logo.png";
 import Quino from "./Quino.png";
 import Tropical from "./Tropical.png";
+import Twitter from "./Twitter.png";
 import add from "./add.png";
 import alignleft from "./align-left.png";
 import apple from "./apple.png";
@@ -21,6 +23,7 @@ import filter from "./filter.png";
 import fruit from "./fruit.png";
 import glasses from "./glasses.png";
 import heart from "./heart.png";
+import insta from "./insta.png";
 import love from "./love.png";
 import love2 from "./love2.png";
 import map from "./map.png";
@@ -30,21 +33,33 @@ import minus from "./minus.png";
 import naira from "./naira.png";
 import order from "./order.png";
 import preparing from "./preparing.png";
+import profile from "./profile.png";
 import royal from "./royal.png";
 import search from "./search.png";
+import send from "./send.png";
 import shoe from "./shoe.png";
 import shopingBasket from "./shopingBasket.png";
 import smartWatch from "./smartWatch.png";
+import snap from "./snap.png";
 import stylish from "./stylish.png";
 import succsess from "./succsess.png";
 import tShirt from "./tShirt.png";
 import tick from "./tick.png";
+import tiktok from "./tiktok.png";
 import user from "./user.png";
 import watch from "./watch.png";
 import waving from "./waving.png";
-
+import whatsapp from "./whatsapp.png";
 export default {
   Logo,
+  profile,
+  snap,
+  Twitter,
+  whatsapp,
+  tiktok,
+  insta,
+  send,
+  Food,
   basket,
   fruit,
   menu,
