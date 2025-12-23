@@ -1,12 +1,15 @@
 import BerryMangoCombo from "./BerryMangoCombo.png";
 import Buttons from "./Buttons.png";
 import Cancel from "./Cancel.png";
+import Cash from "./Cash.png";
 import Food from "./Food.png";
 import HoneyLimeCombo from "./HoneyLimeCombo.png";
 import Logo from "./Logo.png";
+import MasterCard from "./MasterCard.png";
 import Quino from "./Quino.png";
 import Tropical from "./Tropical.png";
 import Twitter from "./Twitter.png";
+import Visa from "./Visa.png";
 import add from "./add.png";
 import alignleft from "./align-left.png";
 import apple from "./apple.png";
@@ -14,19 +17,23 @@ import back from "./back.png";
 import background from "./background.png";
 import bag from "./bag.png";
 import basket from "./basket.png";
+import bg from "./bg.png";
 import call from "./call.png";
 import casio from "./casio.png";
 import delivery from "./delivery.png";
 import dot from "./dot.png";
 import eye from "./eye.png";
 import filter from "./filter.png";
+import flower from "./flower.png";
 import fruit from "./fruit.png";
 import glasses from "./glasses.png";
+import hand from "./hand.png";
 import heart from "./heart.png";
 import insta from "./insta.png";
 import love from "./love.png";
 import love2 from "./love2.png";
 import map from "./map.png";
+import medi from "./medi.png";
 import melon from "./melon.png";
 import menu from "./menu.png";
 import minus from "./minus.png";
@@ -47,15 +54,28 @@ import tShirt from "./tShirt.png";
 import tick from "./tick.png";
 import tiktok from "./tiktok.png";
 import user from "./user.png";
+import vid from "./vid.png";
 import watch from "./watch.png";
+import water from "./water.png";
 import waving from "./waving.png";
 import whatsapp from "./whatsapp.png";
+import mastarCard from './mastarCard.png'
 export default {
+  mastarCard,
   Logo,
   profile,
+  flower,
+  Cash,
+  Visa,
+  MasterCard,
+  hand,
+  water,
+  medi,
   snap,
   Twitter,
+  vid,
   whatsapp,
+  bg,
   tiktok,
   insta,
   send,
